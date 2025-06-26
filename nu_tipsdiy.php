@@ -159,6 +159,19 @@ function getFirstLine($text) {
     align-self: center;
     margin-top: 12px;
   }
+  .btn-more:hover,
+.btn-more:focus {
+  background-color: #8fb38d; /* tukar ke versi lebih gelap hijau (boleh ubah) */
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+  .btn-more:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 </style>
 
 </head>
@@ -188,7 +201,7 @@ foreach ($bahanLines as $line) {
 }
 ?>
 
-            <a href="diy_detail.php?id=<?= $tip['id'] ?>" class="btn btn-more">Lebih Lanjut</a>
+            <a href="diy_detail.php?id=<?= $tip['id'] ?>" class="btn-more">Lebih Lanjut</a>
           </div>
         </div>
       <?php endforeach ?>
