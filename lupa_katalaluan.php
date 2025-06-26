@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute([$token, $expiry, $emel]);
 
         // Hantar email reset password guna PHPMailer
-        $reset_link = "http://localhost/reWear/reset_password.php?token=" . $token;
+        $reset_link = "http://amalia.aizathami.website/reset_password.php?token=" . $token;
 
         $mail = new PHPMailer(true);
         try {
