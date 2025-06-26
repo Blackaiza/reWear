@@ -90,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <p><b>Pakaian Ditukarkan:</b> '.$info['namaTukar'].' ('.$info['saizTukar'].')</p>
                                 <p><img src="cid:pakaianTukar" width="150"></p>
                                 <div style="margin-top:20px;text-align:center;">
-                                    <a href="https://amalia.aizathami.website/pemberian_percuma.php?tab=permintaan" style="background:#3c7962;color:white;padding:12px 25px;border-radius:50px;text-decoration:none;font-weight:bold;">Semak Permintaan</a>
+                                    <a href="https://amalia.aizathami.website/pemberian_pertukaran.php?tab=permintaan" style="background:#3c7962;color:white;padding:12px 25px;border-radius:50px;text-decoration:none;font-weight:bold;">Semak Permintaan</a>
                                     <p>Sila Klik Butang <b>Semak Permintaan</b> untuk log masuk ke ReWear.</p>
                                 </div>
                             </div>
